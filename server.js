@@ -56,7 +56,7 @@ app.use('/assets',express.static('assets'))
 app.use('/js',express.static('js'))
 
 // Listen on port 5000
-app.set('port', (8000));
+app.set('port', (80));
 http.listen(app.get('port'), function(){
   console.log('listening on port',app.get('port'));
 });
